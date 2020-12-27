@@ -7,7 +7,15 @@ This basically stemmed from my interest of furthering my understanding in Hanoi'
  pip3 install -r requirements.txt
 ```
 + Download the chromedriver compatible to your current Chrome browser's version [here](https://chromedriver.chromium.org/downloads)
-+ Run the file perfectly and export to your own favourite data formats
++ Run the file perfectly and export to your own favourite data formats:
+            - csv:
+                      ```
+                       df.to_csv('test.csv', 'r')
+                      ```
+            - excel: 
+                      ```
+                       df.to_xlsx('test.csv', 'r')
+                      ```
 ----------------------------------------------------------------------
 
 #### Copyright @Stephen.2020 
