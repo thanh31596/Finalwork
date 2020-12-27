@@ -8,11 +8,11 @@ This basically stemmed from my interest of furthering my understanding in Hanoi'
 ```
 + Download the chromedriver compatible to your current Chrome browser's version [here](https://chromedriver.chromium.org/downloads)
 + Run the file perfectly and export to your own favourite data formats:
-            - csv:
+            *csv:
                       ```
                        df.to_csv('test.csv', 'r')
                       ```
-            - excel: 
+            *excel:
                       ```
                        df.to_xlsx('test.csv', 'r')
                       ```
