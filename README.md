@@ -15,7 +15,7 @@ This basically stemmed from my interest of furthering my understanding in Hanoi'
 or
             
 ```
-df.to_xlsx('test.csv', 'r')
+df.to_xlsx('test.xlsx', 'r')
 ```
 
 ## Acknowledgments
